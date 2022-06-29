@@ -305,6 +305,12 @@ height: 30px; */
     cursor: pointer;
     margin-left: 12px;
     color: white;
+
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+    font:inherit;
+  
 }
 
 .send-icon {
@@ -574,7 +580,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .footer-address {
-    margin-bottom: 9px;
+    margin:0 0 9px 0;
     font-size: 14px;
     line-height: 1.72;
     letter-spacing: 0.03em;
@@ -748,7 +754,7 @@ color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     background-color: transparent;
-    padding-left: 15px;
+    padding-left: 42px;
     font:inherit;
 }
 
@@ -777,7 +783,7 @@ color: rgba(255, 255, 255, 0.6);
   .close-button:focus {
     fill:#2196F3;
   }
-/* ДОБАВИТИ ІКОНКИ + ВІДЦЕНТРУВАТИ НОРМ(((( */
+
 .form-icon{
     position: absolute;
     top: 50%;
@@ -788,9 +794,9 @@ color: rgba(255, 255, 255, 0.6);
     display: inline-block;
     width: 18px;
     height: 18px;
-    /* background-color: tomato; */
+
 }
-/* ПЕРЕВІРИТИ ЧИ САМЕ ТАК МАЄ ПРАЦЮВАТИ */
+
 .modal-input:focus{
     outline: 1px solid #2196F3;
     border-color:#2196F3;
@@ -814,6 +820,7 @@ color: rgba(255, 255, 255, 0.6);
     resize: none;
     margin-top: 4px;
     background-color: transparent;
+    border: 1px solid rgba(33, 33, 33, 0.2);
 
 }
 
@@ -854,6 +861,7 @@ color: #757575;
 
 .check-text a{
     color: #2196F3;
+    text-decoration-line: underline;
 }
 
 /* .check-text::before{
